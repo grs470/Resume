@@ -1,0 +1,257 @@
+.anchor
+{
+    padding-top: 65px;
+    margin-top: -50px;
+}
+
+.separator
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#break1
+{
+    background-image: url("../img/skyline\ seperator.jpg");
+}
+
+#break2
+{
+    background-image: url("../img/rune\ seperator.jpg");
+}
+
+#break3
+{
+    background-image: url("../img/mountain\ seperator.jpg");
+}
+
+#header
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/tent-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header .overview
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #3f3f3f;
+    color: #f3f3f3;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 15%;
+}
+
+#header .overview img
+{
+    border-radius: 50%;
+    width: 250px;
+}
+
+#navigation
+{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#experience
+{
+    background-image: linear-gradient(to bottom right, #000000, #efefef);
+    padding-bottom: 15px;
+    
+}
+
+#experience ul
+{
+    list-style-type: none;
+}
+
+#experience h1
+{
+    color: #d1d1d1;
+}
+
+#experience h5
+{
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #000000;
+    color: #d1d1d1;
+    text-decoration: underline;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+#experience h6
+{
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#experience p
+{
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+#experience .employer
+{
+    background-color: #3f3f3f;
+    color: #f3f3f3;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+#education
+{
+    background-image: linear-gradient(to top left, #000000, #efefef);
+    padding-bottom: 15px;
+}
+
+#education ul
+{
+    list-style-type: none;
+}
+
+#education h1
+{
+    color: #000000;
+}
+
+#education h5
+{
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #d1d1d1;
+    color: #000000;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#education h6
+{
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#education p
+{
+    margin-bottom: 2px;
+    padding-left: 10px;
+}
+
+#education .school
+{
+    background-color: #f3f3f3;
+    color: #3f3f3f;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* Hobbies and Interests */
+#hobbies
+{
+    background-image: linear-gradient(to bottom right, #000000, #efefef);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#hobbies .body
+{
+    color: #d1d1d1;
+}
+
+#hobbies .category
+{
+    background-color: #3f3f3f;
+    padding-bottom: 10;
+    height: 100%;
+}
+
+#hobbies .category h4
+{
+    background-color: #000000;
+    text-decoration: underline;
+    font-variant: small-caps;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10;
+    margin-right: -15;
+    margin-left: -15;
+}
+
+#hobbies ul
+{
+    list-style-type: none;
+    visibility: hidden;
+}
+
+#hobbies h1
+{
+    color: #d1d1d1;
+}
+
+#hobbies h5
+{
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #000000;
+    color: #d1d1d1;
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#hobbies h6
+{
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+
+#hobbies p
+{
+    margin-bottom: 2px;
+    padding-left: 10px;
+}
+
+#hobbies .hobby
+{
+    background-color: #3f3f3f;
+    color: #f3f3f3;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* Links Section */
+#links
+{
+    text-align: center;
+}
